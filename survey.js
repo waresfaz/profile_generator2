@@ -5,15 +5,11 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-// let inputEntries = [];
+
 
 rl.question("What's your name? Nicknames are also acceptable :)", (answer1) => {
-  // inputEntries.push(answer1);
-  // console.log(`Thank you for your valuable feedback: ${answer1}`);
 
   rl.question("What's an activity you like doing?", (answer2) => {
-    // inputEntries.push(answer2);
-    // console.log(`Thank you for your valuable feedback: ${answer2}`);
 
     rl.question("What do you listen to while doing that?", (answer3) => {
 
